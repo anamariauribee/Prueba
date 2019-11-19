@@ -115,15 +115,32 @@ const AppNavigator = createStackNavigator({
     screen: LogInScreen,
     navigationOptions:  {
       title: 'LogIn',
-      header: null,
+
+    headerLeft: null,
+    headerStyle: {
+
+        backgroundColor: '#FFFFFF',
+        height: 40
+   },
+    headerTitleStyle: {
+           textAlign:"center",
+           flex:1
+       },
   }
   },
   CambiarContrasena: {
     screen: CambiarContrasenaScreen,
     navigationOptions:  {
       title: 'Cambiar Contraseña        ',
-     
-      header: null,
+    headerStyle: {
+
+        backgroundColor: '#FFFFFF',
+        height: 40
+   },
+    headerTitleStyle: {
+           textAlign:"center",
+           flex:1
+       },
   }
   },
   
@@ -131,28 +148,65 @@ const AppNavigator = createStackNavigator({
     screen: EditarInformacionScreen,
     navigationOptions:  {
       title: 'Editar Información        ',
-     
-      header: null,
+
+    headerStyle: {
+
+        backgroundColor: '#FFFFFF',
+        height: 40
+   },
+    headerTitleStyle: {
+           textAlign:"center",
+           flex:1
+       },
+
   },
 },
   Sugerencia1: {
     screen: Sugerencia1Screen, 
     navigationOptions:  {
       title: 'Sugerencia 1',
-      header: null,
+      headerLeft: null,
+
+         headerStyle: {
+
+             backgroundColor: '#FFFFFF',
+             height: 40
+        },
+         headerTitleStyle: {
+                textAlign:"center",
+                flex:1
+            },
   } 
   },
   Sugerencia2: {
     screen: Sugerencia2Screen, 
     navigationOptions:  {
       title: 'Sugerencia 2',
-      header: null,
+       headerLeft: null,
+         headerStyle: {
+
+             backgroundColor: '#FFFFFF',
+             height: 40
+        },
+         headerTitleStyle: {
+                textAlign:"center",
+                flex:1
+            },
   } 
   },Sugerencia3: {
     screen: Sugerencia3Screen, 
     navigationOptions:  {
       title: 'Sugerencia 3',
-      header: null,
+       headerLeft: null,
+         headerStyle: {
+
+             backgroundColor: '#FFFFFF',
+             height: 40
+        },
+         headerTitleStyle: {
+                textAlign:"center",
+                flex:1
+            },
   } 
   },
 
@@ -160,36 +214,80 @@ const AppNavigator = createStackNavigator({
   screen: Sugerencia4Screen, 
   navigationOptions:  {
     title: 'Sugerencia 4',
-    header: null,
+  headerLeft: null,
+    headerStyle: {
+
+        backgroundColor: '#FFFFFF',
+        height: 40
+   },
+    headerTitleStyle: {
+           textAlign:"center",
+           flex:1
+       },
 } 
 },
   SignIn: {
     screen: SignInScreen,
     navigationOptions:  {
       title: 'Registrar Usuario',
-      header: null,
+    headerLeft: null,
+      headerStyle: {
+
+          backgroundColor: '#FFFFFF',
+          height: 40
+     },
+      headerTitleStyle: {
+             textAlign:"center",
+             flex:1
+         },
   }
   },
   RecuperarContrasena: {
     screen: RecuperarContrasenaScreen,
     navigationOptions:  {
       title: 'Recuperar Contraseña',
-      header: null,
-      
+  headerLeft: null,
+    headerStyle: {
+
+        backgroundColor: '#FFFFFF',
+        height: 40
+   },
+    headerTitleStyle: {
+           textAlign:"center",
+           flex:1
+       },
   },
 },
   Filtros: {
     screen: FiltrosScreen,
     navigationOptions:  {
       title: 'Filtros',
-      header: null,
+      headerLeft: null,
+        headerStyle: {
+
+            backgroundColor: '#FFFFFF',
+            height: 40
+       },
+        headerTitleStyle: {
+               textAlign:"center",
+               flex:1
+           },
   }
 },
   EntrarCodigo: {
     screen: EntrarCodigoScreen,
     navigationOptions:  {
       title: 'Código',
-      header: null,
+      headerLeft: null,
+        headerStyle: {
+
+            backgroundColor: '#FFFFFF',
+            height: 40
+       },
+        headerTitleStyle: {
+               textAlign:"center",
+               flex:1
+           },
   }
   },
 
@@ -197,7 +295,16 @@ const AppNavigator = createStackNavigator({
     screen: ResultadosScreen,
     navigationOptions:  {
       title: 'Resultados',
-      header: null,
+       headerLeft: null,
+         headerStyle: {
+
+             backgroundColor: '#FFFFFF',
+             height: 40
+        },
+         headerTitleStyle: {
+                textAlign:"center",
+                flex:1
+            },
   }
   },
 
@@ -205,7 +312,16 @@ const AppNavigator = createStackNavigator({
     screen: NuevaContrasenaScreen,
     navigationOptions:  {
       title: 'Establecer Nueva Contraseña',
-      header: null,
+       headerLeft: null,
+         headerStyle: {
+
+             backgroundColor: '#FFFFFF',
+             height: 40
+        },
+         headerTitleStyle: {
+                textAlign:"center",
+                flex:1
+            },
   }
   }, 
 }, {
